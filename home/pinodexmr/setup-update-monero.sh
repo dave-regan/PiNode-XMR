@@ -146,7 +146,7 @@ wget https://downloads.getmonero.org/cli/linuxarm8
 #Make temp folder to extract binaries
 mkdir temp && tar -xvf linuxarm8 -C ~/temp
 #Move Monerod files to standard location
-mv /home/pinodexmr/temp/monero-aarch64-linux-gnu-v0.17.3.2/monero* /home/pinodexmr/monero/build/release/bin/
+mv /home/pinodexmr/temp/monero-aarch64-linux-gnu-v0.18.0.0/monero* /home/pinodexmr/monero/build/release/bin/
 rm linuxarm8
 else
   #Download 32-bit Monero
@@ -154,7 +154,7 @@ wget https://downloads.getmonero.org/cli/linuxarm7
 #Make temp folder to extract binaries
 mkdir temp && tar -xvf linuxarm7 -C ~/temp
 #Move Monerod files to standard location
-mv /home/pinodexmr/temp/monero-arm-linux-gnueabihf-v0.17.3.2/monero* /home/pinodexmr/monero/build/release/bin/
+mv /home/pinodexmr/temp/monero-arm-linux-gnueabihf-v0.18.0.0/monero* /home/pinodexmr/monero/build/release/bin/
 rm linuxarm7
 fi
 #Make dir .bitmonero to hold lmdb. Needs to be added before drive mounted to give mount point. Waiting for monerod to start fails mount.
